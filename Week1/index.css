@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
+html {
+    scroll-behavior: smooth;
+  }
+  
+body{
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    height: 70px;
+    width: 130px;
+    margin-left: 95%;
+}
+ul {
+  list-style-type: none;
+  margin: -8px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fef8f1;
+  width: 1527px;
+  position: fixed;
+  top: 0;
+  width: 101%;
+}
+li {
+    float: left;
+    padding: 0;
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    transition: 0.3s;
+    font-family: 'Rubik Iso', cursive;
+    
+  }
+  li a:hover:not(.active) {
+    color: orange;
+
+  }
+  .list{
+    padding-top: 30px;
+    margin-left: 40%;
+  }
+  .index-page{
+
+    background-image: url('https://wallpaperaccess.com/full/2389934.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .homedescription{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 0;
+    color: white;
+    margin-top: 7%;
+    margin-left: 1%;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+  }
+  h1{
+    font-size: 40px;
+  }
+  p{
+    font-size: 25px;
+  }
+
+  /* menu */
+  @import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+   .menu p{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+  }
+  h2{
+    text-align: center;
+    font-size: 90px;
+    color: #4a302c;
+    font-family: 'Satisfy', cursive;
+ }
+
+ .flex-container{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+ }
+ .flex-container h3{
+    text-align: center;
+    font-size: 20px;
+     font-family: 'Satisfy', cursive;
+ }
+
+ /* Services */
+ .beans{
+    text-align: center;
+    margin-top: 7%;
+    margin-left: -70%;
+ }
+ .equipment{
+    text-align: center;
+    margin-top: -19%;
+    margin-left: 1%;
+ }
+ .barista{
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 73%;
+ }
+ .bakery-training{
+    text-align: center;
+    margin-top: 1%;
+    margin-left: -34%;
+ }
+ .farm{
+    text-align: center;
+    margin-top: -20%;
+    margin-left: 41%;
+ }
+ .services h3{
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    color: #4e3d39;
+ }
+ .services p{
+    font-size: 16px;
+    font-family: 'Satisfy', cursive;
+    color: #60524f;
+ }
+
+/* about */
+.about p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Caveat', cursive;
+}
+
+/* contact */
+.details{
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: stretch;
+}
+.contact img{
+    width: 150px;
+    height: 150px;
+}
+
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+.footer{
+    text-align: center;
+    background-image: url('https://t4.ftcdn.net/jpg/02/54/72/45/360_F_254724570_2K2w2Fa9apGdV5d0bvbTPTmOnghC0Yis.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#fb{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+#ig{
+    margin-top: 1%;
+    margin-left: 3%;
+}
+#twitter{
+    margin-top: 1%;
+    margin-left: 3%;
+    
+}
+
+
