@@ -149,19 +149,121 @@ li a {
 }
 
 /* contact */
+.form{
+  border-style: solid;
+  border-color: orange;
+  border-radius: 18px;
+  border-width: 4px;
+  width: 500px;
+  height: 700px;
+  margin-left: 15%;
+  position: relative;
+}
+.contact h3{
+  margin-top: 1%;
+  margin-left: 20%;
+  font-size: 30px;
+  font-family: 'Satisfy', cursive;
+}
+label{
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Caveat', cursive;
+}
+form{
+  margin-top: 1%;
+  margin-left: 20%;
+}
+#name{
+  width: 315px;
+  height: 41px;
+}
+#email{
+  width: 315px;
+  height: 41px;
+}
+#continent{
+  width: 315px;
+  height: 41px;
+}
+#message{
+  width: 315px;
+  height: 150px;
+}
+button{
+  color: black;
+  border: 2px solid orange;
+  width: 130px;
+  border-radius: 12px;
+  padding: 18px 36px;
+  display: inline-block;
+  font-family: 'Caveat', cursive;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  box-shadow: inset 0 0 0 0 orange;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 1s;
+}
+button:hover {
+  box-shadow: inset 400px 0 0 0 orange;
+}
 .details{
-    display: flex;
-	flex-direction: row;
+  display: flex;
+	flex-direction: column;
 	flex-wrap: nowrap;
-	justify-content: space-around;
+	justify-content: space-evenly;
 	align-items: center;
-	align-content: stretch;
+  margin-top: -42%;
+  margin-left: 55%;
+  border: 4px solid orange;
+  width: 496px;
+}
+.email{
+  margin-top: 1%;
+  margin-left: -20%;
+}
+.phone{
+  margin-top: 1%;
+  margin-left: -20%;
+}
+.location{
+  margin-top: 1%;
+  margin-left: -20%;
 }
 .contact img{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
+}
+.email p{
+  margin-top: -26%;
+  margin-left: 41%;
+}
+.phone p{
+  margin-top: -42%;
+  margin-left: 40%;
+}
+.location p{
+  margin-top: -36%;
+  margin-left: 45%;
+}
+.email img{
+  margin-top: 1%;
+  margin-left: 1%;
+
+}
+.phone img{
+  margin-top: 20%;
+  margin-left: -15%;
+}
+.location img{
+  margin-top: 20%;
+  margin-left: 1%;
 }
 
+
+/* Footer */
 .footer img{
     width: 30px;
     height: 30px;
@@ -173,6 +275,7 @@ li a {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin-top: 25%;
 }
 #fb{
     margin-top: 1%;
